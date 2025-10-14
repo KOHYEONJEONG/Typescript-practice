@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext", //package.json파일에서도 esmodule 사용 가능하도록 설정야한다. "type": "module"
+    "outDir": "dist",
+    "strict": true,
+    "moduleDetection": "force" //개별 모듈이 자동으로 생성됨(js파일 확인해보면 됨)
+  },
+  "include": ["src"]
+}

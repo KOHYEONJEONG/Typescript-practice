@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext", //esnext추가했으니 package.json파일에 "type": "module"추가
+    "outDir": "dist",
+    "strict": true,
+    "moduleDetection": "force"
+  },
+  "include": ["src"]
+}
