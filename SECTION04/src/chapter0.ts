@@ -40,7 +40,7 @@ function getSum(...rest: number[]) {
   return sum; //자동으로 return 자료형은 number
 }
 
-//예시2. 튜플(고정길이)
+//예시2. rest + 튜플(고정길이)
 function getSumTuple(...rest: [number, number, number]) {
   //동일 : function getSumTuple(a: number, b: number, c: number)
   let sum = 0;

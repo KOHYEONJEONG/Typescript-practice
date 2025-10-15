@@ -24,7 +24,7 @@ unKnownVar = () => {};
 // 단 아래처럼 사용은 불가(모든 타입의 변수에 다 UnknownType에 값을 넣을 수 없다.)
 // num = unKnownVar;
 
-//타입 정제, 타입좁히기
+//💡타입 정제, 타입좁히기
 if (typeof unKnownVar === "number") {
   num = unKnownVar; // 이렇게 확실히 numberType이라고 명시했을 때 사용할 수 있다.
 }

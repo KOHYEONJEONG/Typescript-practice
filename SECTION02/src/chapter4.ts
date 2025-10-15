@@ -23,7 +23,7 @@ let user: User = {
 // 인덱스 시그니처 -----------------------------------------
 //불규칙 갯수 프로퍼티(ex: 계속해서 증가되는 프로퍼티인경우)
 type CountryCodes = {
-  [key: string]: string;
+  [key: string]: string; //무한
 };
 
 let countryCodes: CountryCodes = {
